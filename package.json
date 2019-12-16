@@ -1,0 +1,22 @@
+{
+  "name": "scss-web-store",
+  "version": "1.0.0",
+  "description": "Landing page for cool store",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sailor95/scss-web-store.git"
+  },
+  "author": "David Huang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sailor95/scss-web-store/issues"
+  },
+  "homepage": "https://github.com/sailor95/scss-web-store#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
