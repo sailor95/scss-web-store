@@ -13,7 +13,7 @@
   margin-top: -11rem;
 
   // The direct child
-  & > * {
+  &>* {
     transform: skewY(7deg);
   }
 }
